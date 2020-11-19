@@ -48,7 +48,7 @@ while($Result = mysqli_fetch_array($res))
 mysqli_close($conn);
 ?>
 <a href="https://itf-63070176.azurewebsites.net/form.html" class="btn btn-info">add</a>
-<a href="https://itf-63070176.azurewebsites.net/show.php" class="btn btn-warning">edit</a>
+<a href="https://itf-63070176.azurewebsites.net/form_edit.html" class="btn btn-warning">edit</a>
 <a href="https://itf-63070176.azurewebsites.net/form_delete.html" class="btn btn-danger">delete</a>
 </body>
 </html>
